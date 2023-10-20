@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ para   carolina ♥</title>
+  <style>
+    .body {
+      background-color: rgb(247, 186, 252);
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ Quieres ser mi flaca mi chakalita carolina "ñatita"? ♥</h1>
+  <img src="https://www.mascotasmania.es/wp-content/uploads/2022/06/como-hacer-que-dos-gatos-se-lleven-bien-ok.jpg" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">Sii❤</button>
+  <button id="no">Noo＞﹏＜</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('Sabia que dirias Que sii❣');
+      alert('Te Quiero❤');
+      location.href = 'https://www.youtube.com/watch?v=B6_iQvaIjXw';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
